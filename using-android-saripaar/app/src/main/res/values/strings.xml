@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Experimento</string>
+    <string name="app_name">Comparative</string>
     <string name="contacts">Contatos</string>
     <string name="confirm_password">Confirmar Senha</string>
     <string name="different_password">As senhas não coincidem</string>

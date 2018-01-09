@@ -95,11 +95,7 @@ public class NewUserActivity extends AppCompatActivity {
     @OnClick(R.id.saveNewUserButton)
     public void saveNewUser() {
         try {
-            long start = System.currentTimeMillis();
             boolean fieldsAreValid = fieldsAreValid();
-            long end = System.currentTimeMillis();
-
-            Log.d("Profiler", "Tempo de execucao = " + (end - start) + "ms");
 
             if (fieldsAreValid) {
                 Realm realm = Realm.getDefaultInstance();
