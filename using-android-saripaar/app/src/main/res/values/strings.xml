@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Experimento</string>
+    <string name="contacts">Contatos</string>
+    <string name="confirm_password">Confirmar Senha</string>
+    <string name="different_password">As senhas não coincidem</string>
+    <string name="email">E-mail</string>
+    <string name="invalid_email">E-mail inválido</string>
+    <string name="loading">Carregando&#8230;</string>
+    <string name="login">Login</string>
+    <string name="login_account">Entrar</string>
+    <string name="logout">Sair</string>
+    <string name="logout_error">Não foi possível efetuar o logout.</string>
+    <string name="name">Nome</string>
+    <string name="name_required">Nome obrigatório</string>
+    <string name="new_user_label">Novo usuário? Cadastre-se agora!</string>
+    <string name="password">Senha</string>
+    <string name="password_required">Senha obrigatória</string>
+    <string name="phone">Telefone</string>
+    <string name="phone_required">Telefone obrigatório</string>
+    <string name="register_new_contact">Novo Contato</string>
+    <string name="register_new_user">Novo Usuário</string>
+    <string name="register">Cadastrar</string>
+    <string name="database_error">Não foi possível salvar os dados.</string>
+</resources>

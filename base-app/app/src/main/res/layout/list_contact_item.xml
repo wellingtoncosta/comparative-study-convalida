@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="10dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="0dp"
+            android:paddingStart="0dp"
+            android:paddingRight="6dp"
+            android:paddingEnd="6dp">
+
+            <ImageView android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:contentDescription="@string/app_name"
+                android:layout_gravity="fill"
+                android:id="@+id/contactImage" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/contactName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/list_item_padding"
+                android:maxLines="1"
+                android:text="@string/app_name"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/list_primary_text" />
+
+            <TextView
+                android:id="@+id/contactEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="@dimen/list_item_padding"
+                android:maxLines="1"
+                android:text="@string/app_name"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="@dimen/list_secondary_text" />
+
+            <TextView
+                android:id="@+id/contactPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="@dimen/list_item_padding"
+                android:maxLines="1"
+                android:text="@string/app_name"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="@dimen/list_secondary_text" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
