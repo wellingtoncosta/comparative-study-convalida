@@ -13,7 +13,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:focusableInTouchMode="true"
-    tools:context="br.com.wellingtoncosta.experimento.view.NewUserActivity"
+    tools:context="br.com.wellingtoncosta.comparative.ui.NewUserActivity"
     tools:showIn="@layout/activity_new_user">
 
     <android.support.design.widget.TextInputLayout

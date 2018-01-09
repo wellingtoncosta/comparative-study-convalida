@@ -1,4 +1,4 @@
-package br.com.wellingtoncosta.experimento.adapter;
+package br.com.wellingtoncosta.comparative.ui.adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -12,8 +12,8 @@ import com.amulyakhare.textdrawable.util.ColorGenerator;
 
 import java.util.List;
 
-import br.com.wellingtoncosta.experimento.R;
-import br.com.wellingtoncosta.experimento.domain.Contact;
+import br.com.wellingtoncosta.comparative.R;
+import br.com.wellingtoncosta.comparative.domain.Contact;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 

@@ -1,11 +1,11 @@
-package br.com.wellingtoncosta.experimento.view;
+package br.com.wellingtoncosta.comparative.ui;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import br.com.wellingtoncosta.experimento.R;
-import br.com.wellingtoncosta.experimento.util.SharedPreferencesUtils;
+import br.com.wellingtoncosta.comparative.R;
+import br.com.wellingtoncosta.comparative.util.SharedPreferencesUtils;
 import io.realm.Realm;
 
 /**

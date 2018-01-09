@@ -1,4 +1,4 @@
-package br.com.wellingtoncosta.experimento.view;
+package br.com.wellingtoncosta.comparative.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,10 +11,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import br.com.wellingtoncosta.experimento.R;
-import br.com.wellingtoncosta.experimento.adapter.ContactAdapter;
-import br.com.wellingtoncosta.experimento.domain.User;
-import br.com.wellingtoncosta.experimento.util.SharedPreferencesUtils;
+import br.com.wellingtoncosta.comparative.R;
+import br.com.wellingtoncosta.comparative.ui.adapter.ContactAdapter;
+import br.com.wellingtoncosta.comparative.domain.User;
+import br.com.wellingtoncosta.comparative.util.SharedPreferencesUtils;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;

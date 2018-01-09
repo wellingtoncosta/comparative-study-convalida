@@ -96,9 +96,7 @@ public class NewContactActivity extends AppCompatActivity {
 
     public void registerNewContact() {
         try {
-            boolean fieldsAreValid = fieldsAreValid();
-
-            if (fieldsAreValid) {
+            if (fieldsAreValid()) {
                 Realm realm = Realm.getDefaultInstance();
                 int userLoggedId = SharedPreferencesUtils.getUserLogged(this);
                 User userLogged = realm.where(User.class).equalTo("id", userLoggedId).findFirst();

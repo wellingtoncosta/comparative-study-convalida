@@ -1,4 +1,4 @@
-package br.com.wellingtoncosta.experimento.util;
+package br.com.wellingtoncosta.comparative.util;
 
 import io.realm.Realm;
 import io.realm.RealmObject;

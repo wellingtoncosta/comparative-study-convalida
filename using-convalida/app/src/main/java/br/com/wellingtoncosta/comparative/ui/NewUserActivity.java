@@ -1,4 +1,4 @@
-package br.com.wellingtoncosta.experimento.view;
+package br.com.wellingtoncosta.comparative.ui;
 
 import android.content.Intent;
 import android.support.design.widget.Snackbar;
@@ -10,10 +10,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
-import br.com.wellingtoncosta.experimento.R;
-import br.com.wellingtoncosta.experimento.domain.User;
-import br.com.wellingtoncosta.experimento.util.RealmUtils;
-import br.com.wellingtoncosta.experimento.util.SharedPreferencesUtils;
+import br.com.wellingtoncosta.comparative.R;
+import br.com.wellingtoncosta.comparative.domain.User;
+import br.com.wellingtoncosta.comparative.util.RealmUtils;
+import br.com.wellingtoncosta.comparative.util.SharedPreferencesUtils;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -23,7 +23,7 @@ import convalida.annotations.NotEmptyValidation;
 import convalida.annotations.PasswordValidation;
 import convalida.library.Convalida;
 import convalida.library.ConvalidaValidator;
-import convalida.library.validation.Patterns;
+import convalida.library.Patterns;
 import io.realm.Realm;
 
 /**

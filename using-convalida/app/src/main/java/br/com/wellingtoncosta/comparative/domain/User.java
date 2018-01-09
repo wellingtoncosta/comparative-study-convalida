@@ -1,5 +1,6 @@
-package br.com.wellingtoncosta.experimento.domain;
+package br.com.wellingtoncosta.comparative.domain;
 
+import io.realm.RealmList;
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 import io.realm.annotations.Required;
@@ -7,7 +8,7 @@ import io.realm.annotations.Required;
 /**
  * @author Wellington Costa on 14/09/2017.
  */
-public class Contact extends RealmObject {
+public class User extends RealmObject {
 
     @PrimaryKey
     private int id;
@@ -19,7 +20,9 @@ public class Contact extends RealmObject {
     private String email;
 
     @Required
-    private String phone;
+    private String password;
+
+    private RealmList<Contact> contacts;
 
     public int getId() {
         return id;
@@ -45,11 +48,19 @@ public class Contact extends RealmObject {
         this.email = email;
     }
 
-    public String getPhone() {
-        return phone;
+    public String getPassword() {
+        return password;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public RealmList<Contact> getContacts() {
+        return contacts;
+    }
+
+    public void setContacts(RealmList<Contact> contacts) {
+        this.contacts = contacts;
     }
 }

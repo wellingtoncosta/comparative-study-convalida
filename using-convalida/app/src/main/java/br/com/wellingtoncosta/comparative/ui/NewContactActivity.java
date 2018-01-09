@@ -1,4 +1,4 @@
-package br.com.wellingtoncosta.experimento.view;
+package br.com.wellingtoncosta.comparative.ui;
 
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TextInputLayout;
@@ -11,15 +11,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
-import br.com.wellingtoncosta.experimento.R;
-import br.com.wellingtoncosta.experimento.domain.Contact;
-import br.com.wellingtoncosta.experimento.domain.User;
-import br.com.wellingtoncosta.experimento.util.RealmUtils;
-import br.com.wellingtoncosta.experimento.util.SharedPreferencesUtils;
+import br.com.wellingtoncosta.comparative.R;
+import br.com.wellingtoncosta.comparative.domain.Contact;
+import br.com.wellingtoncosta.comparative.domain.User;
+import br.com.wellingtoncosta.comparative.util.RealmUtils;
+import br.com.wellingtoncosta.comparative.util.SharedPreferencesUtils;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import convalida.annotations.EmailValidation;
-import convalida.annotations.LengthValidation;
 import convalida.annotations.NotEmptyValidation;
 import convalida.annotations.PatternValidation;
 import convalida.library.Convalida;

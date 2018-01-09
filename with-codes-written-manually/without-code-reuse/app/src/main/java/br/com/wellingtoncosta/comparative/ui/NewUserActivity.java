@@ -95,9 +95,7 @@ public class NewUserActivity extends AppCompatActivity {
     @OnClick(R.id.saveNewUserButton)
     public void saveNewUser() {
         try {
-            boolean fieldsAreValid = fieldsAreValid();
-
-            if (fieldsAreValid) {
+            if (fieldsAreValid()) {
                 Realm realm = Realm.getDefaultInstance();
                 int nextUserId = RealmUtils.getNextValue(User.class);
 

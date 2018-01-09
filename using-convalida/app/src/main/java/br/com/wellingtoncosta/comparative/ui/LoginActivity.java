@@ -1,17 +1,16 @@
-package br.com.wellingtoncosta.experimento.view;
+package br.com.wellingtoncosta.comparative.ui;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.widget.EditText;
 
-import br.com.wellingtoncosta.experimento.R;
-import br.com.wellingtoncosta.experimento.domain.User;
-import br.com.wellingtoncosta.experimento.util.SharedPreferencesUtils;
+import br.com.wellingtoncosta.comparative.R;
+import br.com.wellingtoncosta.comparative.domain.User;
+import br.com.wellingtoncosta.comparative.util.SharedPreferencesUtils;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -19,7 +18,6 @@ import convalida.annotations.EmailValidation;
 import convalida.annotations.PasswordValidation;
 import convalida.library.Convalida;
 import convalida.library.ConvalidaValidator;
-import convalida.library.validation.Patterns;
 import io.realm.Realm;
 
 /**
@@ -61,13 +59,7 @@ public class LoginActivity extends AppCompatActivity {
 
     @OnClick(R.id.loginButton)
     public void login() {
-        long start = System.currentTimeMillis();
-        boolean fieldsAreValid = validator.validateFields();
-        long end = System.currentTimeMillis();
-
-        Log.d("Profiler", "Tempo de execucao = " + (end - start) + "ms");
-
-        if(fieldsAreValid) {
+        if(validator.validateFields()) {
             Realm realm = Realm.getDefaultInstance();
             String email = emailField.getText().toString();
             String password = passwordField.getText().toString();

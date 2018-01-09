@@ -52,9 +52,7 @@ public class LoginActivity extends AppCompatActivity {
 
     @OnClick(R.id.loginButton)
     public void login() {
-        boolean fieldsAreValid = fieldsAreValid();
-
-        if (fieldsAreValid) {
+        if (fieldsAreValid()) {
             Realm realm = Realm.getDefaultInstance();
             String email = emailField.getText().toString();
             String password = passwordField.getText().toString();
