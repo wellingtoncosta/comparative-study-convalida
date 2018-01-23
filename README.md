@@ -14,7 +14,7 @@ The comparative strategies are:
 |         #        | User Login | User Registration | Contact Registration |
 |:----------------:|:----------:|:-----------------:|:--------------------:|
 | Android Saripaar |     20     |         23        |          21          |
-|     Convalida    |      5     |         7         |           7          |
+|     Convalida    |      5     |         7         |           6          |
 
 ## Lines of code with codes written manually
 
