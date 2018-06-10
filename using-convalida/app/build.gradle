@@ -28,9 +28,9 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     implementation 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
     implementation 'com.jakewharton:butterknife:8.8.1'
-    implementation 'com.github.WellingtonCosta.convalida:convalida:1.0.7'
+    implementation 'com.github.WellingtonCosta.convalida:convalida:2.2.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
-    annotationProcessor 'com.github.WellingtonCosta.convalida:convalida-compiler:1.0.7'
+    annotationProcessor 'com.github.WellingtonCosta.convalida:convalida-compiler:2.2.0'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
