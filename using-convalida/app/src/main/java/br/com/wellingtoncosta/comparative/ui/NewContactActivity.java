@@ -30,7 +30,7 @@ import io.realm.Realm;
  */
 public class NewContactActivity extends AppCompatActivity {
 
-    private static final String PHONE_PATTERN = "^\\([1-9]{2}\\)?([0-9]{9})$";
+    private static final String PHONE_PATTERN = "^(?:(?:\\+|00)?(55)\\s?)?(?:\\(?([1-9][0-9])\\)?\\s?)?(?:((?:9\\d|[2-9])\\d{3})\\-?(\\d{4}))$";
 
     @BindView(R.id.toolbar)
     Toolbar toolbar;

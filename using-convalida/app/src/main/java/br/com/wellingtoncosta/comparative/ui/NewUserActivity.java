@@ -50,7 +50,7 @@ public class NewUserActivity extends AppCompatActivity {
 
     @PasswordValidation(
             min = 1,
-            pattern = Patterns.LOWER_UPPER_CASE_NUMERIC_SPECIAL,
+            pattern = Patterns.NUMERIC_ONLY,
             errorMessage = R.string.password_required
     )
     @BindView(R.id.passwordLayout)
